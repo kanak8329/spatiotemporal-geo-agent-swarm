@@ -1,0 +1,30 @@
+{
+  "global": {
+    "r2": 0.9978,
+    "rmse": 0.79,
+    "mae": 0.56
+  },
+  "zones": {
+    "upper": {
+      "r2": 0.9952,
+      "rmse": 0.85,
+      "mae": 0.58,
+      "mean_gw": 35.03,
+      "test_points": 41460
+    },
+    "middle": {
+      "r2": 0.9946,
+      "rmse": 0.7,
+      "mae": 0.48,
+      "mean_gw": 11.57,
+      "test_points": 191502
+    },
+    "lower": {
+      "r2": 0.9892,
+      "rmse": 0.85,
+      "mae": 0.62,
+      "mean_gw": -9.3,
+      "test_points": 214187
+    }
+  }
+}

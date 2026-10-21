@@ -1,0 +1,177 @@
+{
+  "CHSG": {
+    "zone": "lower",
+    "r2": 0.8345,
+    "rmse": 0.73,
+    "mae": 0.63,
+    "test_points": 24
+  },
+  "DNAN": {
+    "zone": "middle",
+    "r2": 0.7977,
+    "rmse": 1.37,
+    "mae": 0.99,
+    "test_points": 24
+  },
+  "ERLN": {
+    "zone": "middle",
+    "r2": 0.8083,
+    "rmse": 0.48,
+    "mae": 0.4,
+    "test_points": 24
+  },
+  "FUNY": {
+    "zone": "lower",
+    "r2": 0.7644,
+    "rmse": 0.54,
+    "mae": 0.42,
+    "test_points": 24
+  },
+  "GFES": {
+    "zone": "middle",
+    "r2": 0.8485,
+    "rmse": 0.58,
+    "mae": 0.43,
+    "test_points": 24
+  },
+  "GS21": {
+    "zone": "lower",
+    "r2": 0.6268,
+    "rmse": 0.48,
+    "mae": 0.35,
+    "test_points": 24
+  },
+  "GS24": {
+    "zone": "middle",
+    "r2": 0.7125,
+    "rmse": 0.44,
+    "mae": 0.38,
+    "test_points": 24
+  },
+  "GS27": {
+    "zone": "upper",
+    "r2": 0.8439,
+    "rmse": 0.43,
+    "mae": 0.35,
+    "test_points": 24
+  },
+  "GS68": {
+    "zone": "middle",
+    "r2": 0.8246,
+    "rmse": 1.27,
+    "mae": 0.97,
+    "test_points": 24
+  },
+  "HLES": {
+    "zone": "middle",
+    "r2": 0.9161,
+    "rmse": 0.71,
+    "mae": 0.61,
+    "test_points": 24
+  },
+  "HNES": {
+    "zone": "middle",
+    "r2": 0.6829,
+    "rmse": 0.69,
+    "mae": 0.55,
+    "test_points": 24
+  },
+  "HUWE": {
+    "zone": "lower",
+    "r2": 0.8608,
+    "rmse": 0.73,
+    "mae": 0.62,
+    "test_points": 24
+  },
+  "KTES": {
+    "zone": "middle",
+    "r2": 0.9013,
+    "rmse": 1.09,
+    "mae": 0.84,
+    "test_points": 24
+  },
+  "LNJS": {
+    "zone": "upper",
+    "r2": 0.8122,
+    "rmse": 0.72,
+    "mae": 0.6,
+    "test_points": 24
+  },
+  "LUKN": {
+    "zone": "lower",
+    "r2": 0.7518,
+    "rmse": 0.6,
+    "mae": 0.47,
+    "test_points": 24
+  },
+  "NTUH": {
+    "zone": "middle",
+    "r2": 0.8578,
+    "rmse": 0.51,
+    "mae": 0.37,
+    "test_points": 24
+  },
+  "PKGM": {
+    "zone": "lower",
+    "r2": 0.9387,
+    "rmse": 1.0,
+    "mae": 0.78,
+    "test_points": 24
+  },
+  "SJES": {
+    "zone": "middle",
+    "r2": 0.7722,
+    "rmse": 0.45,
+    "mae": 0.37,
+    "test_points": 24
+  },
+  "SSES": {
+    "zone": "lower",
+    "r2": 0.736,
+    "rmse": 0.61,
+    "mae": 0.48,
+    "test_points": 24
+  },
+  "TASI": {
+    "zone": "lower",
+    "r2": 0.7392,
+    "rmse": 1.22,
+    "mae": 1.01,
+    "test_points": 24
+  },
+  "TKJS": {
+    "zone": "middle",
+    "r2": 0.8184,
+    "rmse": 1.0,
+    "mae": 0.8,
+    "test_points": 24
+  },
+  "VR01": {
+    "zone": "lower",
+    "r2": 0.6724,
+    "rmse": 0.33,
+    "mae": 0.26,
+    "test_points": 24
+  },
+  "VR02": {
+    "zone": "middle",
+    "r2": 0.732,
+    "rmse": 0.59,
+    "mae": 0.43,
+    "test_points": 24
+  },
+  "VR03": {
+    "zone": "upper",
+    "r2": 0.7759,
+    "rmse": 0.49,
+    "mae": 0.38,
+    "test_points": 24
+  },
+  "YSLL": {
+    "zone": "lower",
+    "r2": 0.8117,
+    "rmse": 0.9,
+    "mae": 0.79,
+    "test_points": 24
+  }
+}

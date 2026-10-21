@@ -1,0 +1,138 @@
+{
+  "study_period": "2017-2021 (60 months Sentinel-1 InSAR + Well Rasters)",
+  "total_cells": 8872,
+  "zones": {
+    "lower": {
+      "cell_count": 4251,
+      "mean_correlation": 0.335,
+      "mean_sensitivity_mm_per_m": 5.018,
+      "mean_subsidence_mm": -67.304,
+      "peak_subsidence_mm": -322.0,
+      "mean_gw_level_m": -9.481
+    },
+    "middle": {
+      "cell_count": 3800,
+      "mean_correlation": 0.428,
+      "mean_sensitivity_mm_per_m": 8.242,
+      "mean_subsidence_mm": -48.459,
+      "peak_subsidence_mm": -327.37,
+      "mean_gw_level_m": 11.4
+    },
+    "upper": {
+      "cell_count": 821,
+      "mean_correlation": 0.153,
+      "mean_sensitivity_mm_per_m": 1.098,
+      "mean_subsidence_mm": -7.604,
+      "peak_subsidence_mm": -82.87,
+      "mean_gw_level_m": 35.831
+    }
+  },
+  "thsr_corridor": {
+    "within_3km": {
+      "cell_count": 1385,
+      "mean_correlation": 0.391,
+      "mean_sensitivity_mm_per_m": 8.344,
+      "mean_subsidence_mm": -65.071,
+      "peak_subsidence_mm": -327.37
+    },
+    "outside_3km": {
+      "cell_count": 7487,
+      "mean_correlation": 0.352,
+      "mean_sensitivity_mm_per_m": 5.609,
+      "mean_subsidence_mm": -51.606,
+      "peak_subsidence_mm": -316.17
+    }
+  },
+  "top_hotspots": [
+    {
+      "longitude": 120.35940210476191,
+      "latitude": 23.65769021898734,
+      "fan_zone": "middle",
+      "dist_to_thsr_km": 0.39,
+      "max_subsidence_mm": -327.37,
+      "r_gw_sub": 0.2919,
+      "compaction_sensitivity_mm_per_m": 7.5532
+    },
+    {
+      "longitude": 120.32603493142857,
+      "latitude": 23.64877840632911,
+      "fan_zone": "lower",
+      "dist_to_thsr_km": 2.61,
+      "max_subsidence_mm": -322.0,
+      "r_gw_sub": 0.2479,
+      "compaction_sensitivity_mm_per_m": 6.9772
+    },
+    {
+      "longitude": 120.32603493142857,
+      "latitude": 23.644322499999998,
+      "fan_zone": "lower",
+      "dist_to_thsr_km": 2.34,
+      "max_subsidence_mm": -317.11,
+      "r_gw_sub": 0.2462,
+      "compaction_sensitivity_mm_per_m": 6.9936
+    },
+    {
+      "longitude": 120.34510188761905,
+      "latitude": 23.653234312658228,
+      "fan_zone": "lower",
+      "dist_to_thsr_km": 1.3,
+      "max_subsidence_mm": -317.02,
+      "r_gw_sub": 0.2904,
+      "compaction_sensitivity_mm_per_m": 7.288
+    },
+    {
+      "longitude": 120.32126819238096,
+      "latitude": 23.644322499999998,
+      "fan_zone": "lower",
+      "dist_to_thsr_km": 2.76,
+      "max_subsidence_mm": -316.78,
+      "r_gw_sub": 0.2518,
+      "compaction_sensitivity_mm_per_m": 7.1535
+    },
+    {
+      "longitude": 120.37846906095238,
+      "latitude": 23.62649887468354,
+      "fan_zone": "middle",
+      "dist_to_thsr_km": 3.19,
+      "max_subsidence_mm": -316.17,
+      "r_gw_sub": 0.3082,
+      "compaction_sensitivity_mm_per_m": 7.2354
+    },
+    {
+      "longitude": 120.35940210476191,
+      "latitude": 23.613131155696202,
+      "fan_zone": "lower",
+      "dist_to_thsr_km": 2.25,
+      "max_subsidence_mm": -314.87,
+      "r_gw_sub": 0.3213,
+      "compaction_sensitivity_mm_per_m": 7.4669
+    },
+    {
+      "longitude": 120.36893558285715,
+      "latitude": 23.630954781012658,
+      "fan_zone": "lower",
+      "dist_to_thsr_km": 2.11,
+      "max_subsidence_mm": -313.08,
+      "r_gw_sub": 0.3314,
+      "compaction_sensitivity_mm_per_m": 7.3604
+    },
+    {
+      "longitude": 120.31650145333333,
+      "latitude": 23.675513844303797,
+      "fan_zone": "lower",
+      "dist_to_thsr_km": 5.1,
+      "max_subsidence_mm": -309.52,
+      "r_gw_sub": 0.246,
+      "compaction_sensitivity_mm_per_m": 7.2909
+    },
+    {
+      "longitude": 120.32603493142857,
+      "latitude": 23.653234312658228,
+      "fan_zone": "lower",
+      "dist_to_thsr_km": 2.89,
+      "max_subsidence_mm": -309.46,
+      "r_gw_sub": 0.2712,
+      "compaction_sensitivity_mm_per_m": 7.4251
+    }
+  ]
+}

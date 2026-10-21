@@ -1,0 +1,112 @@
+# ==============================================================================
+# Git Ignore Configuration - Spatiotemporal Geo-Agent Swarm Thesis Platform
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Python Environment & Compilation Artifacts
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 2. Large Datasets & Raw Satellite Dropzone (> 2.3 GB)
+# ------------------------------------------------------------------------------
+# Ignore raw multi-gigabyte raster dropzone and uncompressed quarantine/archives
+data/0_dropzone/
+data/archive/
+
+# Ignore raw raster files if placed outside dropzone
+*.tif
+*.tiff
+*.nc
+*.hdf
+*.h5
+
+# NOTE: data/validated/ is explicitly kept tracked (~73MB GeoParquet) to ensure
+# the Streamlit dashboard and DuckDB SQL views run immediately after git clone.
+!data/validated/
+!data/validated/**
+
+# ------------------------------------------------------------------------------
+# 3. Model Training Checkpoints & Monitoring Logs
+# ------------------------------------------------------------------------------
+# Intermediate training steps (thousands of weights)
+rl_checkpoints/
+rl_tensorboard/
+
+# Allow production serialized models needed for execution
+!xgboost_groundwater_model.pkl
+!rl_groundwater_policy.zip
+
+# ------------------------------------------------------------------------------
+# 4. External / Unrelated Sub-Projects
+# ------------------------------------------------------------------------------
+# Standalone cloned extensions / sub-repos not part of the thesis codebase
+Zoo-Code/
+
+# ------------------------------------------------------------------------------
+# 5. Agent Scratch, Video Outputs & Knowledge Graphs
+# ------------------------------------------------------------------------------
+.agent/
+.agents/
+skills-lock.json
+brag-output/
+graphify-out/
+
+# ------------------------------------------------------------------------------
+# 6. IDE, Editors & Operating System Artifacts
+# ------------------------------------------------------------------------------
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Windows thumbnail & desktop caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ------------------------------------------------------------------------------
+# 7. Sensitive Files, Credentials & Logs
+# ------------------------------------------------------------------------------
+*.log
+.env
+.env.*
+!.env.sample

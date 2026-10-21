@@ -1,0 +1,15 @@
+=== TEMPORAL TRENDS ===
+Groundwater range: -2.41 to 8.10
+Pumping range: 51400.39 to 171869.31
+
+=== CORRELATIONS WITH GROUNDWATER ===
+groundwater_level    1.000000
+elevation_dem        0.862285
+subsidence           0.200333
+lulc                 0.105142
+rainfall             0.081226
+year                 0.019145
+pumping             -0.007528
+temperature         -0.010583
+distance_to_river   -0.160127
+twi                 -0.206149
